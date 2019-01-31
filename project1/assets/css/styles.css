@@ -40,6 +40,27 @@ body {
     line-height: 70%;
 }
 
+.square {
+    position: absolute;
+    left: 75px;
+    width: 500px;
+    height: 30px;
+    background: yellow;
+
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+.highlight {
+    position: relative;
+    top: 360px;
+    left: 133px;
+    width: 270px;
+    height: 5px;
+    background: yellow;
+}
+
 .nav {
     font-size: 14px;
     position: fixed;
