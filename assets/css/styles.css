@@ -2,5 +2,32 @@ body {
     background: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    color: slategray;
+    color: black;
+}
+
+.section1 {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 30%;
+}
+
+.title {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 30%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
 }
