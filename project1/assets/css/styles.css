@@ -2,5 +2,60 @@ body {
     background: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    color: slategray;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+
+    line-height: 2;
+}
+
+.feh1 {
+    font-family: 'Barrio', cursive;
+    position: absolute;
+    top: -200px;
+    left: 250px;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+
+    font-size: 200px;
+    color: red;
+}
+
+.edna {
+    position: relative;
+    top: 250px;
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    line-height: 70%;
+}
+
+.mrinc {
+    position: relative;
+    top: 225px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    line-height: 70%;
+}
+
+.nav {
+    font-size: 12px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
 }

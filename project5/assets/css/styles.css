@@ -3,25 +3,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     color: black;
-
+    
     margin-top: 50px;
     margin-left: 250px;
     margin-right: 200px;
 
     line-height: 2;
-}
-
-.projects {
-    font-size: 12px;
-    position: fixed;
-    top: 50px;
-    left: 50px;
-    padding: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 a:link {
