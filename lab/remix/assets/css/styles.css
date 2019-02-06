@@ -1,8 +1,8 @@
 body {
-    background: white;
+    background: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    color: black;
+    color: white;
     
     margin-top: 50px;
     margin-left: 250px;
@@ -19,20 +19,67 @@ body {
 }
 
 .remix {
+    color: white;
+    position: fixed;
+    top: 50px;
+    left: 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 100px;
 }
 
+.nav-item:hover, .active {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.mos1 {
+    position: absolute;
+    top: 700px;
+    left: 700px;
+    z-index: 1;
+}
+
+.auds {
+    position: fixed;
+    top: 220px;
+    left: 200px;
+}
+
+.bm {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.man {
+    position: absolute;
+    top: 390px;
+    left: 650px;
+}
+
+.madonna {
+    position: absolute;
+    top: 680px;
+    left: 170px;
+}
+
+.thor {
+    position: absolute;
+    top: 950px;
+    left: 340px;
+}
+
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: lightskyblue;
+    color: greenyellow;
 }
