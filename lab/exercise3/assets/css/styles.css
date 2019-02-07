@@ -1,14 +1,58 @@
 body {
     background: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     
     margin-top: 50px;
     margin-left: 250px;
-    margin-right: 200px;
+    margin-right: 250px;
+}
 
-    line-height: 2;
+.lemonade {
+    color: white;
+    font-size: 12px;
+}
+
+.layer1 {
+    position: absolute;
+    display: inline-block;
+    top: 85px;
+    width: 350px;
+    height: 50px;
+    background: #BA5CDC;
+}
+
+.layer2 {
+    position: absolute;
+    top: 140px;
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    background: #FBFE9B;
+}
+
+.layer3 {
+    position: absolute;
+    top: 595px;
+    display: inline-block;
+    width: 350px;
+    height: 70px;
+    background:#DC143C;
+}
+
+.description {
+    position: absolute;
+    top: 85px;
+    margin-left: 400px;
+    margin-right: 250px;
+    line-height: 1.5;
+    border: 1px;
+    border-style: solid;
+    color: #424242;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .nav {
