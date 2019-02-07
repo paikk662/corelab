@@ -11,6 +11,13 @@ body {
     line-height: 2;
 }
 
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
 a:link {
     text-decoration: none;
     color: black;
