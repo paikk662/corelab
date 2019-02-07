@@ -21,24 +21,27 @@ body {
     width: 350px;
     height: 50px;
     background: #BA5CDC;
+    padding-top: 2px;
 }
 
 .layer2 {
     position: absolute;
-    top: 140px;
+    top: 135px;
     display: inline-block;
     width: 350px;
     height: 450px;
     background: #FBFE9B;
+    padding-top: 2px;
 }
 
 .layer3 {
     position: absolute;
-    top: 595px;
+    top: 585px;
     display: inline-block;
     width: 350px;
     height: 70px;
     background:#DC143C;
+    padding-top: 2px;
 }
 
 .description {
