@@ -3,8 +3,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     color: black;
-    
-    margin-top: 50px;
     margin-left: 250px;
     margin-right: 200px;
 
@@ -24,6 +22,25 @@ body {
     color: red;
 }
 
+.back {
+    position: absolute;
+    left: 380px;
+    background: #3FBDEA;
+    height: 450px;
+    width: 745px;
+    display: inline-block;
+}
+
+.back2 {
+    position: absolute;
+    top: 319px;
+    left: 300px;
+    background: red;
+    height: 30px;
+    width: 900px;
+    display: inline-block;
+}
+
 .edna {
     position: relative;
     top: 250px;
@@ -34,11 +51,11 @@ body {
 
 .mrinc {
     position: relative;
-    top: 225px;
+    top: 250px;
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     line-height: 70%;
-    color: #04007E;
+    color: black;
 }
 
 .square {

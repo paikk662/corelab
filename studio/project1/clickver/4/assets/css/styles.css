@@ -11,6 +11,26 @@ body {
     line-height: 2;
 }
 
+.back1 {
+    position: absolute;
+    top: 230px;
+    left: 530px;
+    display: inline-block;
+    background-color: #3FBDEA;
+    width: 780px;
+    height: 200px;
+}
+
+.back3 {
+    position: absolute;
+    top: 347px;
+    left: 880px;
+    display: inline-block;
+    background-color: #D72626;
+    width: 435px;
+    height: 7px;
+}
+
 .feh1 {
     font-family: 'Barrio', cursive;
     position: absolute;
@@ -36,9 +56,10 @@ body {
     position: relative;
     top: 225px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 70%;
-    color: #04007E;
+    color: black;
+    font-weight: 600;
 }
 
 .square {
