@@ -1,0 +1,100 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+    margin-left: 250px;
+    margin-right: 200px;
+
+    line-height: 2;
+}
+
+.feh1 {
+    font-family: 'Barrio', cursive;
+    position: absolute;
+    top: -200px;
+    left: 250px;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+
+    font-size: 200px;
+    color: red;
+}
+
+.back {
+    position: absolute;
+    left: 380px;
+    background: #3FBDEA;
+    height: 450px;
+    width: 745px;
+    display: inline-block;
+}
+
+.back2 {
+    position: absolute;
+    top: 319px;
+    left: 300px;
+    background: red;
+    height: 30px;
+    width: 900px;
+    display: inline-block;
+}
+
+.edna {
+    position: relative;
+    top: 250px;
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    line-height: 70%;
+}
+
+.mrinc {
+    position: relative;
+    top: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 70%;
+    color: black;
+}
+
+.square {
+    position: absolute;
+    left: 75px;
+    width: 500px;
+    height: 30px;
+    background: yellow;
+
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+
+.highlight {
+    position: relative;
+    top: 360px;
+    left: 133px;
+    width: 270px;
+    height: 5px;
+    background: yellow;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
