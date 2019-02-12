@@ -11,6 +11,14 @@ body {
     line-height: 2;
 }
 
+.secondone {
+    display: none;
+  }
+  
+.firstone:hover + .secondone {
+    display: block;
+  }
+
 .feh1 {
     font-family: 'Barrio', cursive;
     position: absolute;
