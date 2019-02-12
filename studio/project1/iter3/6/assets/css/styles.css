@@ -11,6 +11,10 @@ body {
     line-height: 2;
 }
 
+p.ed2:hover {
+    color: red;
+}
+
 .feh1 {
     font-family: 'Barrio', cursive;
     position: absolute;

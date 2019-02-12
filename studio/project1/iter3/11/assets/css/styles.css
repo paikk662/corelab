@@ -22,16 +22,21 @@ body {
     color: red;
 }
 
+
+.back:hover + .back22 {
+    display: block;
+}
+
 .back {
     position: absolute;
     left: 380px;
     background: #3FBDEA;
     height: 450px;
     width: 745px;
-    display: inline-block;
 }
-
-.back2 {
+   
+.back22 {
+    display: none;
     position: absolute;
     top: 319px;
     left: 300px;
@@ -39,6 +44,10 @@ body {
     height: 30px;
     width: 900px;
     display: inline-block;
+
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 }
 
 .edna {
@@ -56,6 +65,10 @@ body {
     font-size: 25px;
     line-height: 70%;
     color: black;
+
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
 }
 
 .square {

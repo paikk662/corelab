@@ -14,10 +14,10 @@ body {
 .back1 {
     position: absolute;
     top: 230px;
-    left: 530px;
+    left: 570px;
     display: inline-block;
     background-color: #3FBDEA;
-    width: 780px;
+    width: 740px;
     height: 200px;
 }
 
