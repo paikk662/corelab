@@ -1,0 +1,99 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+
+    line-height: 2;
+}
+
+#q-top {
+    position: absolute;
+    height: 15px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#q-side {
+    position: absolute;
+    height: 250px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#q-stem {
+    position: absolute;
+    top: 225px;
+    left: 445px;
+    height: 275px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#tail {
+    position: absolute;
+    top: 450px;
+    left: 410px;
+    height: 15px;
+    width: 175px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#cutout {
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    left: 445px;
+    height: 215px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.lowercase-q {
+    width:400px;
+    height:500px;
+    border: 1px solid black;
+    z-index: -5;
+}
+  
+pre code {
+    background-color: #eee;
+    border: none;
+    display: block;
+    padding: 20px;
+    width:400px;
+}
+
+  a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}

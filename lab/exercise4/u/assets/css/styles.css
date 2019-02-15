@@ -1,0 +1,47 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+
+    line-height: 2;
+}
+
+.lowercase-u {
+    width:400px;
+    height:500px;
+    border: 1px solid black;
+    z-index: -5;
+}
+  
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width:400px;
+}
+
+  a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
