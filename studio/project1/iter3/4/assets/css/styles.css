@@ -22,9 +22,9 @@ body {
 }
 
 .back3 {
-    position: absolute;
-    top: 347px;
-    left: 880px;
+    position: relative;
+    top: 180px;
+    left: 700px;
     display: inline-block;
     background-color: #D72626;
     width: 435px;
@@ -56,7 +56,7 @@ body {
     position: relative;
     top: 225px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
+    font-size: 42px;
     line-height: 70%;
     color: black;
     font-weight: 600;

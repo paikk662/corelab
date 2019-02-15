@@ -11,13 +11,19 @@ body {
     line-height: 2;
 }
 
-.secondone {
-    display: none;
-  }
-  
-.firstone:hover + .secondone {
-    display: block;
-  }
+.text {
+    font-size:110px;
+    letter-spacing:10px;
+    position:absolute;
+    top:320px;
+}
+
+.text:hover {
+    font-size: 110px;
+    letter-spacing: 60px;
+    position: absolute;
+    top: 320px;
+}
 
 .feh1 {
     font-family: 'Barrio', cursive;

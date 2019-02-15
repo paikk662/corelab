@@ -12,9 +12,9 @@ body {
 }
 
 .back {
-    position: absolute;
-    top: 370px;
-    left: 600px;
+    position: relative;
+    top: 20px;
+    left: 400px;
     display: inline-block;
     background-color: #3FBDEA;
     width: 520px;
@@ -23,8 +23,8 @@ body {
 
 .red {
     position: absolute;
-    top: 425px;
-    left: 560px;
+    top: 400px;
+    left: 500px;
     display: inline-block;
     background-color: #D72626;
     width: 100px;
@@ -56,7 +56,7 @@ body {
     position: relative;
     top: 225px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 38px;
+    font-size: 42px;
     line-height: 70%;
     color: black;
 }

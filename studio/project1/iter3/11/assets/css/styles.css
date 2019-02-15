@@ -9,6 +9,10 @@ body {
     line-height: 2;
 }
 
+.effect:hover {
+    color: #1D23DC;
+}
+
 .feh1 {
     font-family: 'Barrio', cursive;
     position: absolute;
@@ -59,11 +63,12 @@ body {
 
 .mrinc {
     position: relative;
-    top: 250px;
+    top: 220px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
     line-height: 70%;
     color: black;
+    font-size:40px; 
+    font-style:italic;
 
     -webkit-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
