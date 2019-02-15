@@ -11,12 +11,12 @@ body {
 
 .paragraph {
     line-height: 1.75;
+    font-family: 'Lato', sans-serif;
 }
 
 .subtitle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
 }
 
 .nav {
@@ -41,8 +41,10 @@ a:hover {
 
 ul {
     line-height: 2;
+    font-family: 'Lato', sans-serif;
 }
 
 ol {
     line-height: 1.75;
+    font-family: 'Lato', sans-serif;
 }
