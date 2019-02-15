@@ -7,15 +7,21 @@ body {
     margin-top: 50px;
     margin-left: 250px;
     margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 .paragraph {
     line-height: 1.75;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titling {
+    font-family: 'Josefin+Slab', serif;
+    font-size: 60px;
 }
 
 .subtitle {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Josefin+Slab', serif;
     font-size: 28px;
 }
 
@@ -41,10 +47,10 @@ a:hover {
 
 ul {
     line-height: 2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ol {
     line-height: 1.75;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
