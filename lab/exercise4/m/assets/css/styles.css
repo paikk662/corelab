@@ -17,6 +17,58 @@ body {
     border: 1px solid black;
     z-index: -5;
 }
+
+#m-top {
+    position: absolute;
+    left: 360px;
+    height: 15px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#m-left {
+    position: absolute;
+    top: 85px;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#m-right {
+    position: absolute;
+    left: 595px;
+    top: 85px;
+    height: 250px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#m-lstem {
+    position: absolute;
+    top: 155px;
+    height: 180px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black; 
+}
+
+#m-mid {
+    position: absolute;
+    top: 320px;
+    left: 430px;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
   
 pre code {
     background-color: #eee;
