@@ -1,0 +1,69 @@
+body {
+    background: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+#boop {
+    position: absolute;
+    top: 950px;
+    margin-bottom: 100px;
+}
+
+.paragraph {
+    line-height: 1.75;
+    color: black;
+    margin: 5px;
+    padding: 3px;
+    padding-left: 15px;
+    background-color: yellow;
+    width: 630px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titling {
+    font-family: 'Rokkitt', serif;
+    font-size: 72px;
+}
+
+.subtitle {
+    font-family: 'Rokkitt', serif;
+    font-size: 36px;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+ul {
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol {
+    line-height: 1.75;
+    font-family: 'Montserrat', sans-serif;
+    color: darkred;
+}
