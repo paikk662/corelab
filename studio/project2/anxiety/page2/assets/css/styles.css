@@ -1,8 +1,8 @@
 body {
-    background: white;
+    background: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    color: black;
+    color: white;
     
     margin-top: 50px;
     margin-left: 250px;
@@ -53,11 +53,11 @@ body {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
