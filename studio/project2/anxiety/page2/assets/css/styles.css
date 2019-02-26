@@ -1,0 +1,100 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.paragraph {
+    line-height: 1;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.ingredients {
+    line-height: 1;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.ingredients:hover {
+    font-size: 24px;
+    color: red;
+}
+
+.titling {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+}
+
+.titling:hover {
+    font-size: 60px;
+}
+
+.subtitle {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+}
+
+.subtitle:hover {
+    font-size: 60px;
+}
+
+.nav {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+ul {
+    line-height: 1;
+    font-family: 'Source Code Pro', monospace;
+}
+
+ol {
+    line-height: 1;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#firststep:hover {
+    font-size: 24px;
+    color: red;
+}
+
+#secondstep:hover {
+    font-size: 24px;
+    color: red;
+}
+
+#thirdstep:hover {
+    font-size: 24px;
+    color: red;
+}
+
+#fourthstep:hover {
+    font-size: 24px;
+    color: red;
+}
+
+#laststep:hover {
+    font-size: 24px;
+    color: red;
+}

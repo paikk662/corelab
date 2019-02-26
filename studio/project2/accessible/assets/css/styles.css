@@ -1,0 +1,129 @@
+body {
+    background: #fcfcfc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #292e38;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.paragraph {
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 20px;
+}
+
+.titling {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 78px;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+ul {
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 20px;
+    list-style: none;
+}
+
+ol {
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333438;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overtext {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
+  .forward {
+    width: 150px;
+    height: 35px;
+    background-color: #0021c7;
+    color: #fcfcfc;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    align-items: right;
+  }
+
+  .forward:hover {
+      background-color: #5a6cc4;
+  }
