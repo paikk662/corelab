@@ -7,17 +7,16 @@ body {
     line-height: 1.15;
 }
 
-.lowercase-u {
+.lowercase-a {
     width:400px;
     height:500px;
     border: 1px solid black;
     z-index: -5;
 }
 
-#u-bot {
+#a-bot {
     position: absolute;
     top: 270px;
-    left: 80px;
     height: 15px;
     width: 150px;
     margin: 10px;
@@ -25,8 +24,18 @@ body {
     background-color: black;
 }
 
-#u-left {
+#a-top {
     position: absolute;
+    height: 15px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#a-corner {
+    position: absolute;
+    left: 215px;
     height: 15px;
     width: 15px;
     margin: 10px;
@@ -34,9 +43,19 @@ body {
     background-color: black;
 }
 
-#u-right {
+#a-tail {
     position: absolute;
-    left: 215px;
+    top: 270px;
+    left: 285px;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#a-left{
+    position: absolute;
     height: 250px;
     width: 15px;
     margin: 10px;
@@ -44,9 +63,10 @@ body {
     background-color: black;
 }
 
-#u-lstem {
+#a-right {
     position: absolute;
     top: 80px;
+    left: 215px;
     height: 205px;
     width: 15px;
     margin: 10px;

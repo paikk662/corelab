@@ -7,7 +7,7 @@ body {
     line-height: 1.15;
 }
 
-#q-stem {
+#b-stem {
     position: absolute;
     top: 175px;
     left: 205px;
@@ -29,18 +29,19 @@ body {
     background-color: black;
 }
 
-#q-top {
+#b-bot {
     position: absolute;
+    top: 440px;
     height: 15px;
-    width: 245px;
+    width: 150px;
     margin: 10px;
     padding: 10px;
     background-color: black;
 }
 
-#q-side {
+#b-side {
     position: absolute;
-    height: 250px;
+    height: 440px;
     width: 15px;
     margin: 10px;
     padding: 10px;
@@ -58,7 +59,7 @@ body {
     background-color: white;
 }
 
-.lowercase-q {
+.lowercase-b {
     width:400px;
     height:500px;
     border: 1px solid black;
