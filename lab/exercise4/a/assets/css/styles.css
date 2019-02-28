@@ -1,0 +1,83 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+
+    line-height: 1.15;
+}
+
+.lowercase-u {
+    width:400px;
+    height:500px;
+    border: 1px solid black;
+    z-index: -5;
+}
+
+#u-bot {
+    position: absolute;
+    top: 270px;
+    left: 80px;
+    height: 15px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#u-left {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#u-right {
+    position: absolute;
+    left: 215px;
+    height: 250px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#u-lstem {
+    position: absolute;
+    top: 80px;
+    height: 205px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black; 
+}
+  
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    width:400px;
+}
+
+  a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}

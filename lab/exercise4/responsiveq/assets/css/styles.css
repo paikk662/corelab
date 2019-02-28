@@ -1,0 +1,87 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+
+    line-height: 1.15;
+}
+
+#q-stem {
+    position: absolute;
+    top: 31%;
+    left: 34.5%;
+    height: 212px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#tail {
+    position: absolute;
+    top: 52%;
+    left: 29%;
+    height: 15px;
+    width: 175px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#q-top {
+    position: absolute;
+    height: 15px;
+    width: 245px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#q-side {
+    position: absolute;
+    height: 250px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#cutout {
+    position: absolute;
+    z-index: 3;
+    left: 34.5%;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+  
+pre code {
+    background-color: #eee;
+    border: none;
+    display: block;
+    padding: 20px;
+    width:400px;
+}
+
+  a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
