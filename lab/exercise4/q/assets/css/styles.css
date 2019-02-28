@@ -3,12 +3,30 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     color: black;
-    
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 200px;
 
     line-height: 2;
+}
+
+#q-stem {
+    position: absolute;
+    top: 175px;
+    left: 205px;
+    height: 275px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#tail {
+    position: absolute;
+    top: 405px;
+    left: 170px;
+    height: 15px;
+    width: 175px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
 }
 
 #q-top {
@@ -29,33 +47,10 @@ body {
     background-color: black;
 }
 
-#q-stem {
-    position: absolute;
-    top: 225px;
-    left: 445px;
-    height: 275px;
-    width: 15px;
-    margin: 10px;
-    padding: 10px;
-    background-color: black;
-}
-
-#tail {
-    position: absolute;
-    top: 450px;
-    left: 410px;
-    height: 15px;
-    width: 175px;
-    margin: 10px;
-    padding: 10px;
-    background-color: black;
-}
-
 #cutout {
     position: absolute;
     z-index: 3;
-    top: 50px;
-    left: 445px;
+    left: 205px;
     height: 215px;
     width: 15px;
     margin: 10px;

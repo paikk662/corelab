@@ -3,10 +3,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     color: black;
-    
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 200px;
 
     line-height: 2;
 }
@@ -16,6 +12,46 @@ body {
     height:500px;
     border: 1px solid black;
     z-index: -5;
+}
+
+#u-bot {
+    position: absolute;
+    top: 270px;
+    left: 80px;
+    height: 15px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#u-left {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#u-right {
+    position: absolute;
+    left: 215px;
+    height: 250px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#u-lstem {
+    position: absolute;
+    top: 80px;
+    height: 205px;
+    width: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black; 
 }
   
 pre code {
