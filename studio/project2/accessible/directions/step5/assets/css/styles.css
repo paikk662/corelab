@@ -13,7 +13,7 @@ body {
 .paragraph {
     line-height: 1.25;
     font-family: 'Roboto', sans-serif;
-    max-width: 600px;
+    max-width: 550px;
     font-size: 38px;
 }
 
@@ -60,7 +60,7 @@ a:hover {
     border-width: .5px;
     border-style: solid;
     border-color: black;
-    width: 425px;
+    width: 400px;
     height: 290px;
     padding-top: 15px;
     padding-left: 20px;
