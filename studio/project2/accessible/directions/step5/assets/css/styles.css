@@ -69,7 +69,7 @@ a:hover {
 @media only screen and (max-width: 1350px) {
     .measurements {
         position: relative;
-        margin-top: -135px;
+        margin-top: -145px;
     }
     .subtitle {
         font-size: 38px;
