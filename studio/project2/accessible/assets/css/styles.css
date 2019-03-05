@@ -76,44 +76,25 @@ ol {
 
   @media only screen and (max-width: 700px) {
     .image {
-      width: 300px;
+      width: 330px;
       height: auto;
     }
     .titling {
         font-size: 50px;
     }
+    .nav {
+      display: none;
+    }
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .paragraph {
+      font-size: 18px;
+      max-width: 420px;
+    }
   }
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #333438;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .overtext {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: left;
-  }
-
   .forward {
     width: 150px;
     height: 35px;

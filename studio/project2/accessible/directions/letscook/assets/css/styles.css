@@ -109,3 +109,13 @@ ol {
 .goback:hover {
     background-color: rgb(127, 126, 136);
 }
+
+@media only screen and (max-width: 950px) {
+    .nav {
+        display: none;
+    }
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }

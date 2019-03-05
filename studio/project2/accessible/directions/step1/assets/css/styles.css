@@ -32,7 +32,7 @@ body {
     position: absolute;
     top: 200px;
     right: 0;
-    margin-right: 50px;
+    margin-right: 100px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -47,17 +47,20 @@ body {
 }
 
 @media only screen and (max-width: 950px) {
-    .measurements {
-        position: relative;
-        margin-top: -115px;
-    }
     .subtitle {
         font-size: 38px;
     }
     .paragraph {
         font-size: 27px;
     }
-  }
+    .nav {
+        display: none;
+    }
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }   
 
 ul {
     font-family: 'Roboto', sans-serif;
@@ -227,3 +230,10 @@ ol {
     margin: 40px;
     background-color: lightgray;
 }
+
+@media only screen and (max-width: 1200px) {
+    .measurements {
+        position: relative;
+        margin-top: -115px;
+    }
+  } 
