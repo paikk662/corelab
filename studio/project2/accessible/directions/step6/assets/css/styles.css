@@ -26,7 +26,6 @@ body {
 .subtitle {
     font-family: 'Open Sans', sans-serif;
     font-size: 42px;
-    text-decoration: underline;
 }
 
 .nav {
@@ -109,4 +108,92 @@ ol {
 
 .goback:hover {
     background-color: rgb(127, 126, 136);
+}
+
+.circle1 {
+    position: fixed;
+    bottom: 0;
+    left: 550px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+.circle2 {
+    position: fixed;
+    bottom: 0;
+    left: 590px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+.circle3 {
+    position: fixed;
+    bottom: 0;
+    left: 630px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+.circle4 {
+    position: fixed;
+    bottom: 0;
+    left: 670px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+.circle5 {
+    position: fixed;
+    bottom: 0;
+    left: 710px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+.circle6 {
+    position: fixed;
+    bottom: 0;
+    left: 750px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: slategray;
+}
+
+.circle7 {
+    position: fixed;
+    bottom: 0;
+    left: 790px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
+}
+
+.circle8 {
+    position: fixed;
+    bottom: 0;
+    left: 830px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: lightgray;
 }
