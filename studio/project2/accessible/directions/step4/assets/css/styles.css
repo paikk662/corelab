@@ -10,15 +10,6 @@ body {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 950px) {
-    .subtitle {
-        font-size: 38px;
-    }
-    .paragraph {
-        font-size: 27px;
-    }
-  }
-
 .paragraph {
     line-height: 1.25;
     font-family: 'Roboto', sans-serif;
@@ -70,6 +61,21 @@ a:hover {
     padding-top: 15px;
     padding-left: 20px;
 }
+
+
+@media only screen and (max-width: 950px) {
+    .measurements {
+        position: relative;
+        margin-top: -140px;
+    }
+    .subtitle {
+        font-size: 38px;
+    }
+    .paragraph {
+        font-size: 27px;
+    }
+
+  }
 
 ul {
     font-family: 'Roboto', sans-serif;
