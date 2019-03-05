@@ -66,6 +66,19 @@ a:hover {
     padding-left: 20px;
 }
 
+@media only screen and (max-width: 1350px) {
+    .measurements {
+        position: relative;
+        margin-top: -135px;
+    }
+    .subtitle {
+        font-size: 38px;
+    }
+    .paragraph {
+        font-size: 27px;
+    }
+  }
+
 ul {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;

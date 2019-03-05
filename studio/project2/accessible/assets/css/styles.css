@@ -73,6 +73,16 @@ ol {
     width: 100%;
     height: auto;
   }
+
+  @media only screen and (max-width: 700px) {
+    .image {
+      width: 300px;
+      height: auto;
+    }
+    .titling {
+        font-size: 50px;
+    }
+  }
   
   .overlay {
     position: absolute;

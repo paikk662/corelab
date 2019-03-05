@@ -35,6 +35,19 @@ body {
     left: 50px;
 }
 
+@media only screen and (max-width: 1350px) {
+    .measurements {
+        position: relative;
+        margin-top: -135px;
+    }
+    .subtitle {
+        font-size: 38px;
+    }
+    .paragraph {
+        font-size: 27px;
+    }
+  }
+
 a:link {
     text-decoration: none;
     color: black;

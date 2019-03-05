@@ -10,6 +10,19 @@ body {
     margin-bottom: 100px;
 }
 
+@media only screen and (max-width: 1350px) {
+    .measurements {
+        position: relative;
+        margin-top: -135px;
+    }
+    .subtitle {
+        font-size: 38px;
+    }
+    .paragraph {
+        font-size: 27px;
+    }
+  }
+
 .paragraph {
     line-height: 1.25;
     font-family: 'Roboto', sans-serif;
