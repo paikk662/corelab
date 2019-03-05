@@ -44,23 +44,7 @@ body {
     height: 180px;
     padding-top: 15px;
     padding-left: 20px;
-}
-
-@media only screen and (max-width: 950px) {
-    .subtitle {
-        font-size: 38px;
-    }
-    .paragraph {
-        font-size: 27px;
-    }
-    .nav {
-        display: none;
-    }
-    body {
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-  }   
+} 
 
 ul {
     font-family: 'Roboto', sans-serif;
@@ -230,6 +214,22 @@ ol {
     margin: 40px;
     background-color: lightgray;
 }
+
+@media only screen and (max-width: 950px) {
+    .subtitle {
+        font-size: 38px;
+    }
+    .paragraph {
+        font-size: 27px;
+    }
+    .nav {
+        display: none;
+    }
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }  
 
 @media only screen and (max-width: 1200px) {
     .measurements {
