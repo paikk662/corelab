@@ -59,18 +59,31 @@ body {
 }
 
 .lowercase-q {
+    position: relative;
+    display: inline-block;
     width:400px;
     height:500px;
-    border: 1px solid black;
-    z-index: -5;
 }
-  
-pre code {
-    background-color: #eee;
-    border: none;
-    display: block;
-    padding: 20px;
+
+.lowercase-q2 {
+    position: relative;
+    display: inline-block;
     width:400px;
+    height:500px;
+}
+
+.lowercase-q3 {
+    position: relative;
+    display: inline-block;
+    width:400px;
+    height:500px;
+}
+
+.lowercase-q4 {
+    position: relative;
+    display: inline-block;
+    width:400px;
+    height:500px;
 }
 
   a:link {
