@@ -7,6 +7,7 @@ body {
     margin-top: 50px;
     margin-left: 250px;
     margin-right: 200px;
+    margin-bottom: 100px;
 }
 
 .paragraph {
@@ -29,6 +30,22 @@ body {
     font-size: 28px;
 }
 
+ul {
+    line-height: 2.25;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 22px;
+    list-style: none;
+    margin-left: -40px;
+}
+
+ol {
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 20px;
+}
+
 .nav {
     font-size: 14px;
     position: fixed;
@@ -47,22 +64,6 @@ a:visited {
 
 a:hover {
     color: lightskyblue;
-}
-
-ul {
-    line-height: 2.25;
-    font-family: 'Roboto', sans-serif;
-    max-width: 750px;
-    font-size: 22px;
-    list-style: none;
-    margin-left: -40px;
-}
-
-ol {
-    line-height: 1.75;
-    font-family: 'Roboto', sans-serif;
-    max-width: 750px;
-    font-size: 20px;
 }
 
 .content {
@@ -163,9 +164,6 @@ ol {
     .paragraph {
         font-size: 20px;
     }
-    .nav {
-        display: none;
-    }
     ul {
         font-size: 16px;
     }
@@ -190,5 +188,9 @@ ol {
         width: 130px;
         height: 30px;
         padding-bottom: 3px;
+    }
+
+    .nav {
+        display: none;
     }
   }
