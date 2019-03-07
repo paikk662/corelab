@@ -130,7 +130,7 @@ ol {
 .circle1 {
     position: fixed;
     bottom: 0;
-    left: 550px;
+    left: 450px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -141,7 +141,7 @@ ol {
 .circle2 {
     position: fixed;
     bottom: 0;
-    left: 590px;
+    left: 490px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -152,7 +152,7 @@ ol {
 .circle3 {
     position: fixed;
     bottom: 0;
-    left: 630px;
+    left: 530px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -163,7 +163,7 @@ ol {
 .circle4 {
     position: fixed;
     bottom: 0;
-    left: 670px;
+    left: 570px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -174,7 +174,7 @@ ol {
 .circle5 {
     position: fixed;
     bottom: 0;
-    left: 710px;
+    left: 610px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -185,7 +185,7 @@ ol {
 .circle6 {
     position: fixed;
     bottom: 0;
-    left: 750px;
+    left: 650px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -196,7 +196,7 @@ ol {
 .circle7 {
     position: fixed;
     bottom: 0;
-    left: 790px;
+    left: 690px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -207,7 +207,7 @@ ol {
 .circle8 {
     position: fixed;
     bottom: 0;
-    left: 830px;
+    left: 730px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -235,11 +235,54 @@ ol {
       margin-left: 25px;
       margin-right: 25px;
     }
+    .forward {
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        margin: 15px;
+        width: 130px;
+        height: 30px;
+        padding-bottom: 3px;
+    }
+    .goback {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        margin: 15px;
+        width: 130px;
+        height: 30px;
+        padding-bottom: 3px;
+    }
+    .circle1 {
+        display: none;
+    }
+    .circle2 {
+        display: none;
+    }
+    .circle3 {
+        display: none;
+    }
+    .circle4 {
+        display: none;
+    }
+    .circle5 {
+        display: none;
+    }
+    .circle6 {
+        display: none;
+    }
+    .circle7 {
+        display: none;
+    }
+    .circle8 {
+        display: none;
+    }
   }  
 
 @media only screen and (max-width: 1200px) {
     .measurements {
         position: relative;
         margin-top: -115px;
+        margin-bottom: 150px;
     }
   } 

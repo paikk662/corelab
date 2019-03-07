@@ -110,12 +110,30 @@ ol {
     background-color: rgb(127, 126, 136);
 }
 
-@media only screen and (max-width: 950px) {
-    .nav {
-        display: none;
-    }
+@media only screen and (max-width: 700px) {
     body {
       margin-left: 50px;
       margin-right: 50px;
+    }
+    .nav {
+        display: none;
+    }
+    .forward {
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        margin: 15px;
+        width: 130px;
+        height: 30px;
+        padding-bottom: 3px;
+    }
+    .goback {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        margin: 15px;
+        width: 130px;
+        height: 30px;
+        padding-bottom: 3px;
     }
   }

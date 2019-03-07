@@ -151,15 +151,44 @@ ol {
     color: #99a1a7;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 750px) {
+    body {
+      margin-top: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+    .paragraph {
+        font-size: 20px;
+    }
     .nav {
         display: none;
     }
-    body {
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-    .ul {
+    ul {
         font-size: 16px;
+    }
+    .content {
+        margin-left: 30px;
+    }
+
+    .forward {
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        margin: 15px;
+        width: 130px;
+        height: 30px;
+        padding-bottom: 3px;
+    }
+    .goback {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        margin: 15px;
+        width: 130px;
+        height: 30px;
+        padding-bottom: 3px;
     }
   }
