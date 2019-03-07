@@ -73,27 +73,6 @@ ol {
     width: 100%;
     height: auto;
   }
-
-  @media only screen and (max-width: 700px) {
-    .image {
-      width: 330px;
-      height: auto;
-    }
-    .titling {
-        font-size: 50px;
-    }
-    .nav {
-      display: none;
-    }
-    body {
-      margin-left: 50px;
-      margin-right: 50px;
-    }
-    .paragraph {
-      font-size: 18px;
-      max-width: 420px;
-    }
-  }
   
   .forward {
     width: 150px;
@@ -117,4 +96,25 @@ ol {
 
   .forward:hover {
       background-color: #5a6cc4;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .image {
+      width: 330px;
+      height: auto;
+    }
+    .titling {
+      font-size: 50px;
+    }
+    .nav {
+      display: none;
+    }
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    .paragraph {
+      font-size: 18px;
+      max-width: 420px;
+    }
   }
