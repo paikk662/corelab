@@ -124,10 +124,7 @@ ol {
       max-width: 420px;
     }
     .forward {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      margin-right: 5%;
-      margin-bottom: 5%;
+      position: relative;
+      margin-top: 35px;
     }
   }
