@@ -231,10 +231,6 @@ ol {
     .nav {
         display: none;
     }
-    body {
-      margin-left: 25px;
-      margin-right: 25px;
-    }
     .forward {
         position: fixed;
         right: 0px;
