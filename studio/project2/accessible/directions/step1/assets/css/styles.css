@@ -216,6 +216,12 @@ ol {
 }
 
 @media only screen and (max-width: 950px) {
+    body {
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
     .subtitle {
         font-size: 38px;
     }
@@ -226,8 +232,8 @@ ol {
         display: none;
     }
     body {
-      margin-left: 50px;
-      margin-right: 50px;
+      margin-left: 25px;
+      margin-right: 25px;
     }
   }  
 
