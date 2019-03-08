@@ -128,91 +128,70 @@ ol {
     background-color: rgb(127, 126, 136);
 }
 
-.circle1 {
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center space-around;
+    width: 300px;
     position: absolute;
     bottom: 0;
-    left: 450px;
+    left: 35%;
+    margin-bottom: 50px;
+}
+
+.circle1 {
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 .circle2 {
-    position: absolute;
-    bottom: 0;
-    left: 490px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle3 {
-    position: absolute;
-    bottom: 0;
-    left: 530px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
-    background-color: slategrey;
+    background-color: slategray;
 }
 
 .circle4 {
-    position: absolute;
-    bottom: 0;
-    left: 570px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle5 {
-    position: absolute;
-    bottom: 0;
-    left: 610px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle6 {
-    position: absolute;
-    bottom: 0;
-    left: 650px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle7 {
-    position: absolute;
-    bottom: 0;
-    left: 690px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle8 {
-    position: absolute;
-    bottom: 0;
-    left: 730px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
@@ -235,8 +214,8 @@ ol {
     }
     body {
         margin-top: 25px;
-      margin-left: 25px;
-      margin-right: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .forward {
         position: fixed;
@@ -256,28 +235,9 @@ ol {
         height: 30px;
         padding-bottom: 3px;
     }
-    .circle1 {
-        display: none;
-    }
-    .circle2 {
-        display: none;
-    }
-    .circle3 {
-        display: none;
-    }
-    .circle4 {
-        display: none;
-    }
-    .circle5 {
-        display: none;
-    }
-    .circle6 {
-        display: none;
-    }
-    .circle7 {
-        display: none;
-    }
-    .circle8 {
-        display: none;
+    .container {
+        width: 250px;
+        margin-bottom: 100px;
+        left: 18%;
     }
   }

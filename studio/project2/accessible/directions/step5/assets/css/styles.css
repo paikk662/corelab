@@ -136,102 +136,81 @@ ol {
     background-color: rgb(127, 126, 136);
 }
 
-.circle1 {
-    position: fixed;
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center space-around;
+    width: 300px;
+    position: absolute;
     bottom: 0;
-    left: 450px;
+    left: 35%;
+    margin-bottom: 50px;
+}
+
+.circle1 {
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle2 {
-    position: fixed;
-    bottom: 0;
-    left: 490px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle3 {
-    position: fixed;
-    bottom: 0;
-    left: 530px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle4 {
-    position: fixed;
-    bottom: 0;
-    left: 570px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle5 {
-    position: fixed;
-    bottom: 0;
-    left: 610px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: slategray;
 }
 
 .circle6 {
-    position: fixed;
-    bottom: 0;
-    left: 650px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle7 {
-    position: fixed;
-    bottom: 0;
-    left: 690px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
 .circle8 {
-    position: fixed;
-    bottom: 0;
-    left: 730px;
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    margin: 40px;
     background-color: lightgray;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .measurements {
         position: relative;
         margin-top: -150px;
+        margin-bottom: 150px;
         width: 300px;
         height: 330px;
-        padding-left: 20px;
-        padding-right: 10px;
+        padding-right: 20px;
     }
     .subtitle {
         font-size: 38px;
@@ -247,8 +226,8 @@ ol {
     }
     body {
         margin-top: 25px;
-      margin-left: 25px;
-      margin-right: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .forward {
         position: fixed;
@@ -268,28 +247,10 @@ ol {
         height: 30px;
         padding-bottom: 3px;
     }
-    .circle1 {
-        display: none;
-    }
-    .circle2 {
-        display: none;
-    }
-    .circle3 {
-        display: none;
-    }
-    .circle4 {
-        display: none;
-    }
-    .circle5 {
-        display: none;
-    }
-    .circle6 {
-        display: none;
-    }
-    .circle7 {
-        display: none;
-    }
-    .circle8 {
-        display: none;
+    .container {
+        position: fixed;
+        width: 250px;
+        margin-bottom: 100px;
+        left: 18%;
     }
   }

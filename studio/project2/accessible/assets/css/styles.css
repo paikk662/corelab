@@ -1,7 +1,7 @@
 body {
     background: #fcfcfc;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 20px;
     color: #292e38;
     
     margin-top: 50px;
@@ -14,7 +14,7 @@ body {
     line-height: 1.75;
     font-family: 'Roboto', sans-serif;
     max-width: 750px;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .titling {
@@ -110,7 +110,7 @@ ol {
       height: auto;
     }
     .titling {
-      font-size: 50px;
+      font-size: 2.5em;
     }
     .nav {
       display: none;
