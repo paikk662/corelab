@@ -10,11 +10,28 @@ body {
 }
 
 .march {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-bottom: 50px;
 }
 
 .container {
     margin-left: 7%;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: .8em;
+}
+
+.indays {
+    font-size: 1.5em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 
 .week {
@@ -50,6 +67,10 @@ a:hover {
 @media only screen and (max-width: 850px) {
     .container {
         margin-left: 0;
+    }
+
+    .days {
+        display: none;
     }
     
     .week {
