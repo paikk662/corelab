@@ -1,0 +1,295 @@
+body {
+    background: #fcfcfc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #292e38;
+    
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.paragraph {
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+    max-width: 650px;
+    font-size: 1.5em;
+}
+
+.dpg {
+  line-height: 1.75;
+  font-family: 'Roboto', sans-serif;
+  max-width: 650px;
+  font-size: 1.5em;
+}
+
+.titling {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 6vw;
+}
+
+.title2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 3vw;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.tip {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.measurements {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  margin-right: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2;
+  border-width: .5px;
+  border-style: solid;
+  border-color: black;
+  max-width: 300px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+} 
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+ul {
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 20px;
+    list-style: none;
+}
+
+ol {
+    line-height: 1.75;
+    font-family: 'Roboto', sans-serif;
+    max-width: 750px;
+    font-size: 20px;
+}
+  
+  .image {
+    display: block;
+    width: 60%;
+    height: auto;
+    min-width: 330px;
+  }
+  
+  .forward {
+    width: 150px;
+    height: 35px;
+    background-color: #0021c7;
+    color: #fcfcfc;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    align-items: right;
+  }
+
+  .goback {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(73, 74, 82);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    align-items: right;
+}
+
+  .forward:hover {
+      background-color: #5a6cc4;
+  }
+
+  .goback:hover {
+    background-color: rgb(127, 126, 136);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 240px;
+  justify-content: center space-between;
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+.circle1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle2 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle4 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle5 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle6 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle7 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.circle8 {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .measurements {
+    position: relative;
+    margin-top: -115px;
+    margin-bottom: 150px;
+    margin-right: 35px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .title2 {
+    font-size: 1.5em;
+  }
+  .paragraph {
+    max-width: 450px;
+  }
+}
+
+  @media only screen and (max-width: 700px) {
+    body {
+      margin-top: 35px;
+      margin-left: 25px;
+      margin-right: 35px;
+      margin-bottom: 100px;
+    }
+    .titling {
+      font-size: 2em;
+    }
+    .title2 {
+      font-size: 1.5em;
+    }
+    .subtitle {
+      font-size: 38px;
+    }
+    .paragraph {
+      max-width: 400px;
+    }
+    .dpg {
+      font-size: 1em;
+    }
+    .forward {
+      position: fixed;
+      right: 0px;
+      bottom: 0px;
+      margin: 15px;
+      width: 130px;
+      height: 30px;
+      padding-bottom: 3px;
+    }
+    .goback {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      margin: 15px;
+      width: 130px;
+      height: 30px;
+      padding-bottom: 3px;
+    }
+    .container {
+      position: fixed;
+      left: 35%;
+      bottom: 0;
+      margin-bottom: 80px;
+    }
+    .measurements {
+      position: relative;
+      margin-top: -115px;
+      margin-bottom: 150px;
+      margin-right: 35px;
+      font-size: .8em;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .paragraph {
+    font-size: 1.15em;
+    max-width: 350px;
+  }
+  .tip {
+    font-size: 1em;
+    max-width: 350px;
+    line-height: 1.75;
+  }
+}
