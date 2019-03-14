@@ -1,0 +1,81 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.march {
+    font-size: 2em;
+}
+
+.container {
+    margin-left: 7%;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 85px;
+}
+
+.date {
+    font-size: 1.5em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.linebr { display: none; }
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        margin-left: 0;
+    }
+    
+    .week {
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .date {
+        margin-top: 50px;
+        font-size: 1.5em;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+    }
+
+    .blank {
+        display: none;
+    }
+
+    .linebr {
+        display: inline-block;
+        height: .2em;
+        width: 100vw;
+        background-color: black;
+        margin-top: 4.5vh;
+        margin-left: -50px;
+    }
+}
