@@ -149,61 +149,73 @@ ol {
     background-color: rgb(127, 126, 136);
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 240px;
-  justify-content: center space-between;
-  position: absolute;
-  left: 35%;
-  bottom: 0;
-  margin-bottom: 50px;
-}
-
 .circle1 {
+  position: fixed;
+  left: 40%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
 .circle2 {
+  position: fixed;
+  left: 42%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
 .circle3 {
+  position: fixed;
+  left: 44%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
 .circle4 {
+  position: fixed;
+  left: 46%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
-.circle5 {
+.circle5 {  
+  position: fixed;
+  left: 48%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
 .circle6 {
+  position: fixed;
+  left: 50%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
 .circle7 {
+  position: fixed;
+  left: 52%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
 }
 
 .circle8 {
+  position: fixed;
+  left: 54%;
+  bottom: 50px;
   width: 10px;
   height: 10px;
   border-radius: 5px;
@@ -215,6 +227,46 @@ ol {
     margin-top: -115px;
     margin-bottom: 150px;
     margin-right: 35px;
+  }
+  .circle1 {
+    position: absolute;
+    left: 320px;
+    top: 70px;
+  }
+  .circle2 {
+    position: absolute;
+    left: 345px;
+    top: 70px;
+  }
+  .circle3 {
+    position: absolute;
+    left: 370px;
+    top: 70px;
+  }
+  .circle4 {
+    position: absolute;
+    left: 395px;
+    top: 70px;
+  }
+  .circle5 {  
+    position: absolute;
+    left: 420px;
+    top: 70px;
+  }
+  .circle6 {
+    position: absolute;
+    left: 445px;
+    top: 70px;
+  }
+  .circle7 {
+    position: absolute;
+    left: 470px;
+    top: 70px;
+  }
+  .circle8 {
+    position: absolute;
+    left: 495px;
+    top: 70px;
   }
 }
 
@@ -279,6 +331,46 @@ ol {
       margin-bottom: 150px;
       margin-right: 35px;
       font-size: .8em;
+    }
+    .circle1 {
+      position: absolute;
+      left: 35px;
+      top: 95px;
+    }
+    .circle2 {
+      position: absolute;
+      left: 60px;
+      top: 95px;
+    }
+    .circle3 {
+      position: absolute;
+      left: 85px;
+      top: 95px;
+    }
+    .circle4 {
+      position: absolute;
+      left: 110px;
+      top: 95px;
+    }
+    .circle5 {  
+      position: absolute;
+      left: 135px;
+      top: 95px;
+    }
+    .circle6 {
+      position: absolute;
+      left: 160px;
+      top: 95px;
+    }
+    .circle7 {
+      position: absolute;
+      left: 185px;
+      top: 95px;
+    }
+    .circle8 {
+      position: absolute;
+      left: 210px;
+      top: 95px;
     }
   }
 
