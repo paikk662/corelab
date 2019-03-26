@@ -1,0 +1,139 @@
+body {
+    background: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.title1 {
+    font-family: 'Germania One', cursive;
+    font-size: 15vw;
+    text-align: right;
+    color: gold;
+}
+
+.title2 {
+    display: none;
+    font-family: 'Germania One', cursive;
+    font-size: 15vw;
+    text-align: right;
+    color: violet;
+}
+
+.quote {
+    font-family: 'Germania One', cursive;
+    font-size: 5vw;
+    font-style: italic;
+    text-align: right;
+    color: white;
+    opacity: 0.5;
+}
+
+.copy {
+    margin: 15px;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 1.3em;
+    max-width: 60vw;
+}
+
+.imgwrap {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 500px;
+    right: 50px;
+}
+
+.substitute {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 500px;
+    right: 50px;
+}
+
+.photo {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+@media only screen and (max-width: 1100px) {
+    .copy {
+        font-size: 1em;
+        max-width: 50vw;
+    }
+    .imgwrap {
+        top: 450px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .copy {
+        font-size: 1em;
+        max-width: 50vw;
+        color: purple;
+    }
+    .imgwrap {
+        display: none;
+    }
+    .substitute {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100vw;
+        top: 25px;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: black;
+    }
+    .title1 {
+        text-decoration: line-through;
+        text-decoration-color: red;
+
+    }
+    .title2 {
+        display: inline-block;
+    }
+    .copy {
+        font-size: .8em;
+        max-width: 90vw;
+        color: violet;
+    }
+    .imgwrap {
+        display: none;
+    }
+    .substitute {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100vw;
+        top: 25px;
+        right: 50px;
+    }
+}

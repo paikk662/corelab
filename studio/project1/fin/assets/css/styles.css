@@ -1,0 +1,53 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+
+    line-height: 2;
+}
+
+.feh1 {
+    font-family: 'Barrio', cursive;
+    position: absolute;
+    top: -375px;
+    left: 250px;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+
+    font-size: 300px;
+    color: red;
+}
+
+.edna {
+    position: relative;
+    top: 330px;
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    line-height: 70%;
+}
+
+.nav {
+    font-size: 14px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
