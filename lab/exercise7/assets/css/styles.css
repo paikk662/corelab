@@ -31,7 +31,7 @@ body {
 }
 
 svg {
-    width: 10%;
+    width: 130px;
     height: auto;
     position: absolute;
     top: 100px;
@@ -39,12 +39,14 @@ svg {
 }
 
 .st0 {
+    position: absolute;
     animation-name: colorchange0 movement;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
 .st1 {
+    position: absolute;
     animation-name: colorchange1;
     animation-duration: 1s;
     animation-iteration-count: infinite;
