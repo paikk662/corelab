@@ -1,0 +1,84 @@
+body {
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.candlestick {
+    z-index: -10;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background-color: skyblue;
+    width: 100px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.wick {
+    z-index: -5;
+    position: absolute;
+    top: 33%;
+    left: 49%;
+    background-color: lightgoldenrodyellow;
+    width: 5px;
+    height: 30px;
+}
+
+svg {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+}
+
+.st0 {
+    animation-name: colorchange0 movement;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.st1 {
+    animation-name: colorchange1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes colorchange0 {
+    from {fill: #F7941D;}
+    to {fill: orangered;}
+}
+
+@keyframes colorchange1 {
+  from {fill: #FFF200;}
+  to {fill: orange;}
+}
+
+svg:hover {
+    animation-name: flicker1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes flicker1 {
+    0% {
+        opacity: 0.6;
+        transform: translate(0px, 5px)
+    }
+    50% {
+        opacity: 0.9;
+        transform: translate(0px, -3px)
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
