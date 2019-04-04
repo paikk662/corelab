@@ -12,8 +12,8 @@ body {
 .candlestick {
     z-index: -10;
     position: absolute;
-    top: 35%;
-    left: 45%;
+    top: 235px;
+    left: 580px;
     background-color: skyblue;
     width: 100px;
     height: 350px;
@@ -23,8 +23,8 @@ body {
 .wick {
     z-index: -5;
     position: absolute;
-    top: 33%;
-    left: 49%;
+    top: 215px;
+    left: 628px;
     background-color: lightgoldenrodyellow;
     width: 5px;
     height: 30px;
@@ -34,8 +34,8 @@ svg {
     width: 10%;
     height: auto;
     position: absolute;
-    top: 15%;
-    left: 44%;
+    top: 100px;
+    left: 565px;
 }
 
 .st0 {
@@ -85,13 +85,13 @@ svg:hover {
 .smoke {
     display: none;
     position: absolute;
-    top: 42%;
-    left: 41%;
+    top: 270px;
+    left: 526px;
 }
 
 .meltedwax {
     display: none;
     position: absolute;
-    top: 61%;
-    left: 37%;
+    top: 397px;
+    left: 473px;
 }
