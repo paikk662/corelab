@@ -82,3 +82,16 @@ svg:hover {
     }
 }
 
+.smoke {
+    display: none;
+    position: absolute;
+    top: 42%;
+    left: 41%;
+}
+
+.meltedwax {
+    display: none;
+    position: absolute;
+    top: 61%;
+    left: 37%;
+}
