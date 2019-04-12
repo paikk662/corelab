@@ -42,3 +42,26 @@ if (fullName.length - 2 <= 9)  {
 }
 
 console.log(response);
+
+var currentTemp = 53;
+var spainTemp = 64;
+
+var convert = function(num) {
+  return (num - 32) * (5/9);
+}
+
+console.log("The temperature in New York City is " + (convert(currentTemp)) + "°C at " + d)
+console.log("The temperature in Barcelona, Spain is " + (convert(spainTemp)) + "°C at " + d)
+
+
+
+document.getElementById("patblock");
+
+var addPattern = document.createDocumentFragment();
+for(var i = 0; i < 50; i++){
+   var newDiv = document.createElement('div');
+   newDiv.id = "patblock"+i;
+   newDiv.className = "greenbox";
+   addPattern.appendChild(newDiv);
+}
+document.getElementById("patblock").appendChild(addPattern);

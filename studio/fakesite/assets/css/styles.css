@@ -1,0 +1,51 @@
+body {
+    background: white;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.headbar {
+
+}
+
+.titling {
+    font-family: 'Merriweather', serif;
+    font-weight: 900i;
+    font-size: 36px;
+    font-style: italic;
+    position: absolute;
+    top: 525px;
+    left: 23%;
+}
+
+.caption1 {
+    color: gray;
+    font-size: 16px;
+    position: absolute;
+    top: 1155px;
+    left: 23%;
+}
+
+.article {
+    position: absolute;
+    top: 1360px;
+    left: 23%;
+    font-size: 21px;
+    line-height: 1.5;
+    max-width: 680px;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #0190C4;
+}
+
+a:visited {
+    color: #0190C4;;
+}
+
+a:hover {
+    text-decoration: none;
+}

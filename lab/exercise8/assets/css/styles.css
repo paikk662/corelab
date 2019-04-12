@@ -9,3 +9,10 @@ body {
     margin-right: 50px;
 }
 
+.greenbox {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    margin: 10px;
+}
