@@ -19,11 +19,16 @@ body {
     background-color: skyblue;
 }
 
-.minutes {
-    font-size: 7em;
-    font-weight: 700;
-    color: yellow;
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     position: absolute;
-    bottom: 30vh;
-    left: 25vw;
+    top: 40%;
+}
+
+#time {
+    font-family: 'VT323', monospace;
+    font-size: 5em;
 }

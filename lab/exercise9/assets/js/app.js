@@ -1,13 +1,20 @@
-var time = "The current time is ";
-var d = new Date().getHours();
-  console.log(time + d);
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
 
-
-var currentHour = new Date().getHours();
-  console.log(currentHour);
-    if (currentHour == 12) {
-      var msg = "MID"
-    } else {
-      var msg = "NONE"
-    };
-  console.log(msg);
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+  t = setTimeout(function() {
+    startTime()
+  }, 500);
+}
+startTime();
