@@ -1,0 +1,100 @@
+body {
+    background: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: black;
+
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.xtitle {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mumbai {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.moscow {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.newyork {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.tokyo {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.seoul {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.beijing {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.shanghai {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.paris {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.london {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.rio {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightskyblue;
+}
