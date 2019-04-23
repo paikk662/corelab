@@ -91,6 +91,27 @@ a:link {
     color: black;
 }
 
+#circle1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
 a:visited {
     color: black;
 }

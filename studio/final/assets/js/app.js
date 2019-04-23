@@ -20,7 +20,12 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.mumbai').append('</br> ' + pressure + ', ' + humidity + ', ' + windspeed);
-    }     
+    }
+});
+
+$("#circle1").hover(function(){
+    $("#circle1").css("height", humidity + "px");
+    $("#circle1").css("width", humidity + "px");
 });
 
 //Moscow
@@ -41,7 +46,7 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.moscow').append('</br> ' + pressure + ', ' + humidity + ', ' + windspeed);
-    }     
+    }
 });
 
 //New York
@@ -62,7 +67,7 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.newyork').append('</br> ' + pressure + ', ' + humidity + ', ' + windspeed);
-    }     
+    }
 });
 
 //Tokyo
@@ -211,3 +216,4 @@ $(document).ready(function(){
         $('.rio').append('</br> ' + pressure + ', ' + humidity + ', ' + windspeed);
     }     
 });
+
