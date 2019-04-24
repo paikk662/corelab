@@ -1,67 +1,200 @@
 body {
     background: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 18px;
     color: black;
+
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
-#circle4 {
-    position: absolute;
-    top: 130px;
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    border-radius: 50%;
-    opacity: .55;
+.bolder {
+    font-weight: 600;
 }
 
-#circle5 {
-    position: absolute;
-    top: 500px;
-    right: 50px;
-    width: 600px;
-    height: 600px;
-    background-color: blue;
-    border-radius: 50%;
-    opacity: .55;
+.xtitle {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 50px;
 }
 
-#circle6 {
-    position: absolute;
-    left: 700px;
-    top: 100px;
-    width: 504.5px;
-    height: 504.5px;
-    background-color: blue;
-    border-radius: 50%;
-    opacity: .74;
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-#circle7 {
-    position: absolute;
-    top: 500px;
-    left: 100px;
-    width: 513px;
-    height: 513px;
-    background-color: blue;
-    border-radius: 50%;
-    opacity: .39;
+.mumbai {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
 }
 
-#circle8 {
-    position: absolute;
-    left: 450px;
-    bottom: 50px;
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    border-radius: 50%;
-    opacity: .52;
+.moscow {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.newyork {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.tokyo {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.seoul {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.beijing {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.shanghai {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.paris {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.london {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.rio {
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
 }
 
 a:link {
     text-decoration: none;
     color: black;
+}
+
+#circle1 {
+    position: absolute;
+    top: 5vh;
+    left: 44vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle2 {
+    position: absolute;
+    top: 11vh;
+    left: 57vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle3 {
+    position: absolute;
+    top: 30vh;
+    left: 65vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle4 { 
+    position: absolute;
+    top: 56vh;
+    left: 65vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle5 {
+    position: absolute;
+    top: 75vh;
+    left: 57vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle6 {
+    position: absolute;
+    top: 82vh;
+    left: 44vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle7 {
+    position: absolute;
+    top: 75vh;
+    left: 30vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle8 {
+    position: absolute;
+    top: 56vh;
+    left: 23vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle9 {
+    position: absolute;
+    top: 30vh;
+    left: 23vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#circle10 {
+    position: absolute;
+    top: 11vh;
+    left: 30vw;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.fuzz {
+    width: 150px;
+    height: auto;
+    fill: blue;
 }
 
 a:visited {
