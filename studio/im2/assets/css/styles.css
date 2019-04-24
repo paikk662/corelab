@@ -27,60 +27,70 @@ body {
 }
 
 .mumbai {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .moscow {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .newyork {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .tokyo {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .seoul {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .beijing {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .shanghai {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .paris {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .london {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
 }
 
 .rio {
+    display: none;
     line-height: 1.5;
     margin: 25px;
     flex-basis: 20%;
@@ -181,7 +191,7 @@ a:link {
     border-radius: 50%;
 }
 
-#circle10 {
+#circle0 {
     position: absolute;
     top: 11vh;
     left: 30vw;
