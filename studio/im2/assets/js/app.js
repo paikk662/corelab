@@ -20,13 +20,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.mumbai').append('</br> ' + pressure1 + ', ' + humidity1 + ', ' + windspeed1);
+        $("#circle1").css("height", humidity1 + "px");
+        $("#circle1").css("width", humidity1 + "px");
+        $("#circle1").css("opacity", "." + humidity1);
     }
-});
-
-$("#circle1").hover(function(){
-    $("#circle1").css("height", humidity1 + "px");
-    $("#circle1").css("width", humidity1 + "px");
-    $("#circle1").css("opacity", "." + humidity1);
 });
 
 var pressure2;
@@ -51,13 +48,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.moscow').append('</br> ' + pressure2 + ', ' + humidity2 + ', ' + windspeed2);
+        $("#circle2").css("height", humidity2 + "px");
+        $("#circle2").css("width", humidity2 + "px");
+        $("#circle2").css("opacity", "." + humidity2);
     }
-});
-
-$("#circle2").hover(function(){
-    $("#circle2").css("height", humidity2 + "px");
-    $("#circle2").css("width", humidity2 + "px");
-    $("#circle2").css("opacity", "." + humidity2);
 });
 
 var pressure3;
@@ -82,13 +76,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.newyork').append('</br> ' + pressure3 + ', ' + humidity3 + ', ' + windspeed3);
+        $("#circle3").css("height", humidity3 + "px");
+        $("#circle3").css("width", humidity3 + "px");
+        $("#circle3").css("opacity", "." + humidity3);
     }
-});
-
-$("#circle3").hover(function(){
-    $("#circle3").css("height", humidity3 + "px");
-    $("#circle3").css("width", humidity3 + "px");
-    $("#circle3").css("opacity", "." + humidity3);
 });
 
 var pressure4;
@@ -113,13 +104,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.tokyo').append('</br> ' + pressure4 + ', ' + humidity4 + ', ' + windspeed4);
+        $("#circle4").css("height", humidity4 + "px");
+        $("#circle4").css("width", humidity4 + "px");
+        $("#circle4").css("opacity", "." + humidity4);
     }     
-});
-
-$("#circle4").hover(function(){
-    $("#circle4").css("height", humidity4 + "px");
-    $("#circle4").css("width", humidity4 + "px");
-    $("#circle4").css("opacity", "." + humidity4);
 });
 
 var pressure5;
@@ -144,13 +132,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.seoul').append('</br> ' + pressure5 + ', ' + humidity5 + ', ' + windspeed5);
+        $("#circle5").css("height", humidity5 + "px");
+        $("#circle5").css("width", humidity5 + "px");
+        $("#circle5").css("opacity", "." + humidity5);
     }     
-});
-
-$("#circle5").hover(function(){
-    $("#circle5").css("height", humidity5 + "px");
-    $("#circle5").css("width", humidity5 + "px");
-    $("#circle5").css("opacity", "." + humidity5);
 });
 
 var pressure6;
@@ -175,13 +160,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.beijing').append('</br> ' + pressure6 + ', ' + humidity6 + ', ' + windspeed6);
+        $("#circle6").css("height", humidity6 + "px");
+        $("#circle6").css("width", humidity6 + "px");
+        $("#circle6").css("opacity", "." + humidity6);
     }     
-});
-
-$("#circle6").hover(function(){
-    $("#circle6").css("height", humidity6 + "px");
-    $("#circle6").css("width", humidity6 + "px");
-    $("#circle6").css("opacity", "." + humidity6);
 });
 
 var pressure7;
@@ -206,13 +188,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.shanghai').append('</br> ' + pressure7 + ', ' + humidity7 + ', ' + windspeed7);
+        $("#circle7").css("height", humidity7 + "px");
+        $("#circle7").css("width", humidity7 + "px");
+        $("#circle7").css("opacity", "." + humidity7);
     }     
-});
-
-$("#circle7").hover(function(){
-    $("#circle7").css("height", humidity7 + "px");
-    $("#circle7").css("width", humidity7 + "px");
-    $("#circle7").css("opacity", "." + humidity7);
 });
 
 var pressure8;
@@ -237,13 +216,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.paris').append('</br> ' + pressure8 + ', ' + humidity8 + ', ' + windspeed8);
+        $("#circle8").css("height", humidity8 + "px");
+        $("#circle8").css("width", humidity8 + "px");
+        $("#circle8").css("opacity", "." + humidity8);
     }     
-});
-
-$("#circle8").hover(function(){
-    $("#circle8").css("height", humidity8 + "px");
-    $("#circle8").css("width", humidity8 + "px");
-    $("#circle8").css("opacity", "." + humidity8);
 });
 
 var pressure9;
@@ -268,13 +244,10 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.london').append('</br> ' + pressure9 + ', ' + humidity9 + ', ' + windspeed9);
+        $("#circle9").css("height", humidity9 + "px");
+        $("#circle9").css("width", humidity9 + "px");
+        $("#circle9").css("opacity", "." + humidity9);
     }     
-});
-
-$("#circle9").hover(function(){
-    $("#circle9").css("height", humidity9 + "px");
-    $("#circle9").css("width", humidity9 + "px");
-    $("#circle9").css("opacity", "." + humidity9);
 });
 
 var pressure0;
@@ -299,12 +272,8 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.rio').append('</br> ' + pressure0 + ', ' + humidity0 + ', ' + windspeed0);
+        $("#circle0").css("height", humidity0 + "px");
+        $("#circle0").css("width", humidity0 + "px");
+        $("#circle0").css("opacity", "." + humidity0);
     }     
 });
-
-$("#circle0").hover(function(){
-    $("#circle0").css("height", humidity0 + "px");
-    $("#circle0").css("width", humidity0 + "px");
-    $("#circle0").css("opacity", "." + humidity0);
-});
-
