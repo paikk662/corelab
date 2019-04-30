@@ -10,8 +10,43 @@ body {
     margin-bottom: 25px;
 }
 
-.bolder {
-    font-weight: 600;
+.toggle1 {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 3px;
+    color: whitesmoke;
+    text-align: center;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: darkslategrey;
+    background-color: darkslategrey;
+}
+
+.toggle2 {
+    width: 30px;
+    height: 30px;
+    border-width: 1.5px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    padding: 3px;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+.toggle3 {
+    width: 30px;
+    height: 30px;
+    border-width: 1.5px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    padding: 3px;
+    color: black;
+    text-align: center;
+    background-color: white;
 }
 
 .xtitle {
@@ -104,199 +139,112 @@ a:link {
 
 #circle1 {
     position: absolute;
-    top: 5vh;
-    left: 5vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, rgb(0, 140, 255) 0%,rgba(90,130,240,0) 70%,rgba(125,185,230,0) 100%);
+    top: 6vh;
+    left: 45vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake1 2s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake1 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(3.1px, 3.1px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-3.1px, -3.1px) rotate(-3.1deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle2 {
     position: absolute;
     top: 15vh;
-    left: 50vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    left: 57vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake2 3s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake2 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(1px, 1px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-1px, -1px) rotate(1deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle3 {
     position: absolute;
-    top: 30vh;
-    left: 70vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%); 
+    top: 32vh;
+    left: 65vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake3 .5s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake3 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(7.5px, 7.5px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-7.5px, -7.5px) rotate(-7.5deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle4 { 
     position: absolute;
-    top: 70vh;
-    left: 80vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);   
+    top: 57vh;
+    left: 65vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);   
     border-radius: 50%;
-    animation: shake4 .5s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake4 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(6.7px, 6.7px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-6.7px, -6.7px) rotate(-6.7deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle5 {
     position: absolute;
-    top: 70vh;
-    left: 10vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    top: 75vh;
+    left: 57vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake5 2s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake5 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(2.6px, 2.6px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-2.6px, -2.6px) rotate(-2.6deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle6 {
     position: absolute;
-    top: 50vh;
-    left: 44vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    top: 84vh;
+    left: 45vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake6 3s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake6 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(2px, 2px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-2px, -2px) rotate(-2deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle7 {
     position: absolute;
     top: 75vh;
-    left: 30vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    left: 32vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake7 2s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake7 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(3px, 3px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-3px, -3px) rotate(-3deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle8 {
     position: absolute;
-    top: 56vh;
-    left: 23vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    top: 57vh;
+    left: 24vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake8 3s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake8 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(1px, 1px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-1px, -1px) rotate(-1deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle9 {
     position: absolute;
-    top: 30vh;
-    left: 23vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    top: 32vh;
+    left: 24vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake9 3s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake9 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(0.5px, 0.5px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-0.5px, -0.5px) rotate(-0.5deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle0 {
     position: absolute;
-    top: 11vh;
-    left: 30vw;
-    width: 100px;
-    height: 100px;
-    background: -webkit-radial-gradient(center, ellipse cover, 
-    rgba(0, 140, 255) 0%,
-    rgba(90,130,240,0) 70%,
-    rgba(125,185,230,0) 100%);
+    top: 15vh;
+    left: 32vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
     border-radius: 50%;
-    animation: shake0 3s;
-    animation-iteration-count: infinite; 
-}
-
-@keyframes shake0 {
-    0%, 20%, 40%, 60%, 80%, 100% { transform: translate(1.5px, 1.5px) rotate(0deg); }
-    10%, 30%, 50%, 70%, 90% { transform: translate(-1.5px, -1.5px) rotate(-1.5deg); }
+    transition: all 1s ease-in-out;
 }
 
 #circle1:hover .mumbai{
@@ -339,10 +287,22 @@ a:link {
     display: block;
 }
 
+  @keyframes windy {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: lightskyblue;
+    color: white;
 }

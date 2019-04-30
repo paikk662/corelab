@@ -20,9 +20,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.mumbai').append('</br> ' + pressure1 + ', ' + humidity1 + ', ' + windspeed1);
-        $("#circle1").css("height", humidity1 + "px");
-        $("#circle1").css("width", humidity1 + "px");
-        $("#circle1").css("opacity", "." + humidity1);
     }
 });
 
@@ -48,9 +45,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.moscow').append('</br> ' + pressure2 + ', ' + humidity2 + ', ' + windspeed2);
-        $("#circle2").css("height", humidity2 + "px");
-        $("#circle2").css("width", humidity2 + "px");
-        $("#circle2").css("opacity", "." + humidity2);
     }
 });
 
@@ -76,9 +70,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.newyork').append('</br> ' + pressure3 + ', ' + humidity3 + ', ' + windspeed3);
-        $("#circle3").css("height", humidity3 + "px");
-        $("#circle3").css("width", humidity3 + "px");
-        $("#circle3").css("opacity", "." + humidity3);
     }
 });
 
@@ -104,9 +95,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.tokyo').append('</br> ' + pressure4 + ', ' + humidity4 + ', ' + windspeed4);
-        $("#circle4").css("height", humidity4 + "px");
-        $("#circle4").css("width", humidity4 + "px");
-        $("#circle4").css("opacity", "." + humidity4);
     }     
 });
 
@@ -132,9 +120,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.seoul').append('</br> ' + pressure5 + ', ' + humidity5 + ', ' + windspeed5);
-        $("#circle5").css("height", humidity5 + "px");
-        $("#circle5").css("width", humidity5 + "px");
-        $("#circle5").css("opacity", "." + humidity5);
     }     
 });
 
@@ -160,9 +145,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.beijing').append('</br> ' + pressure6 + ', ' + humidity6 + ', ' + windspeed6);
-        $("#circle6").css("height", humidity6 + "px");
-        $("#circle6").css("width", humidity6 + "px");
-        $("#circle6").css("opacity", "." + humidity6);
     }     
 });
 
@@ -188,9 +170,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.shanghai').append('</br> ' + pressure7 + ', ' + humidity7 + ', ' + windspeed7);
-        $("#circle7").css("height", humidity7 + "px");
-        $("#circle7").css("width", humidity7 + "px");
-        $("#circle7").css("opacity", "." + humidity7);
     }     
 });
 
@@ -216,9 +195,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.paris').append('</br> ' + pressure8 + ', ' + humidity8 + ', ' + windspeed8);
-        $("#circle8").css("height", humidity8 + "px");
-        $("#circle8").css("width", humidity8 + "px");
-        $("#circle8").css("opacity", "." + humidity8);
     }     
 });
 
@@ -244,9 +220,6 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.london').append('</br> ' + pressure9 + ', ' + humidity9 + ', ' + windspeed9);
-        $("#circle9").css("height", humidity9 + "px");
-        $("#circle9").css("width", humidity9 + "px");
-        $("#circle9").css("opacity", "." + humidity9);
     }     
 });
 
@@ -272,8 +245,140 @@ $(document).ready(function(){
 
     function myWeatherInterpretation(){
         $('.rio').append('</br> ' + pressure0 + ', ' + humidity0 + ', ' + windspeed0);
-        $("#circle0").css("height", humidity0 + "px");
-        $("#circle0").css("width", humidity0 + "px");
-        $("#circle0").css("opacity", "." + humidity0);
     }     
+});
+
+$(".toggle2").click(function(){
+    $("#circle1").css("height", humidity1 + "px");
+    $("#circle1").css("width", humidity1 + "px");
+    $("#circle1").css("opacity", "." + humidity1);
+    $("#circle1").css("animation-name", "x");
+    $("#circle2").css("height", humidity2 + "px");
+    $("#circle2").css("width", humidity2 + "px");
+    $("#circle2").css("opacity", "." + humidity2);
+    $("#circle2").css("animation-name", "x");
+    $("#circle3").css("height", humidity3 + "px");
+    $("#circle3").css("width", humidity3 + "px");
+    $("#circle3").css("opacity", "." + humidity3);
+    $("#circle3").css("animation-name", "x");
+    $("#circle4").css("height", humidity4 + "px");
+    $("#circle4").css("width", humidity4 + "px");
+    $("#circle4").css("opacity", "." + humidity4);
+    $("#circle4").css("animation-name", "x");
+    $("#circle5").css("height", humidity5 + "px");
+    $("#circle5").css("width", humidity5 + "px");
+    $("#circle5").css("opacity", "." + humidity5);
+    $("#circle5").css("animation-name", "x");
+    $("#circle6").css("height", humidity6 + "px");
+    $("#circle6").css("width", humidity6 + "px");
+    $("#circle6").css("opacity", "." + humidity6);
+    $("#circle6").css("animation-name", "x");
+    $("#circle7").css("height", humidity7 + "px");
+    $("#circle7").css("width", humidity7 + "px");
+    $("#circle7").css("opacity", "." + humidity7);
+    $("#circle7").css("animation-name", "x");
+    $("#circle8").css("height", humidity8 + "px");
+    $("#circle8").css("width", humidity8 + "px");
+    $("#circle8").css("opacity", "." + humidity8);
+    $("#circle8").css("animation-name", "x");
+    $("#circle9").css("height", humidity9 + "px");
+    $("#circle9").css("width", humidity9 + "px");
+    $("#circle9").css("opacity", "." + humidity9);
+    $("#circle9").css("animation-name", "x");
+    $("#circle0").css("height", humidity0 + "px");
+    $("#circle0").css("width", humidity0 + "px");
+    $("#circle0").css("opacity", "." + humidity0);
+    $("#circle0").css("animation-name", "x");
+    $(".toggle1").css("border-color", "black");
+    $(".toggle1").css("color", "black");
+    $(".toggle1").css("background-color", "white");
+    $(".toggle2").css("border-color", "darkslategrey");
+    $(".toggle2").css("color", "white");
+    $(".toggle2").css("background-color", "darkslategrey");
+    $(".toggle3").css("border-color", "black");
+    $(".toggle3").css("color", "black");
+    $(".toggle3").css("background-color", "white");
+});
+
+$(".toggle3").click(function(){
+
+    $("#circle1").css("height", humidity1 + "px");
+    $("#circle1").css("width", humidity1 + "px");
+    $("#circle1").css("opacity", "." + humidity1);
+    $("#circle1").css("animation-name", "windy");
+    $("#circle1").css("animation-duration", windspeed1 + "s");
+    $("#circle1").css("animation-iteration-count", "infinite");
+
+    $("#circle2").css("height", humidity2 + "px");
+    $("#circle2").css("width", humidity2 + "px");
+    $("#circle2").css("opacity", "." + humidity2);
+    $("#circle2").css("animation-name", "windy");
+    $("#circle2").css("animation-duration", windspeed2 + "s");
+    $("#circle2").css("animation-iteration-count", "infinite");
+
+    $("#circle3").css("height", humidity3 + "px");
+    $("#circle3").css("width", humidity3 + "px");
+    $("#circle3").css("opacity", "." + humidity3);
+    $("#circle3").css("animation-name", "windy");
+    $("#circle3").css("animation-duration", windspeed3 + "s");
+    $("#circle3").css("animation-iteration-count", "infinite");
+
+    $("#circle4").css("height", humidity4 + "px");
+    $("#circle4").css("width", humidity4 + "px");
+    $("#circle4").css("opacity", "." + humidity4);
+    $("#circle4").css("animation-name", "windy");
+    $("#circle4").css("animation-duration", windspeed4 + "s");
+    $("#circle4").css("animation-iteration-count", "infinite");
+
+    $("#circle5").css("height", humidity5 + "px");
+    $("#circle5").css("width", humidity5 + "px");
+    $("#circle5").css("opacity", "." + humidity5);
+    $("#circle5").css("animation-name", "windy");
+    $("#circle5").css("animation-duration", windspeed5 + "s");
+    $("#circle5").css("animation-iteration-count", "infinite");
+
+    $("#circle6").css("height", humidity6 + "px");
+    $("#circle6").css("width", humidity6 + "px");
+    $("#circle6").css("opacity", "." + humidity6);
+    $("#circle6").css("animation-name", "windy");
+    $("#circle6").css("animation-duration", windspeed6 + "s");
+    $("#circle6").css("animation-iteration-count", "infinite");
+
+    $("#circle7").css("height", humidity7 + "px");
+    $("#circle7").css("width", humidity7 + "px");
+    $("#circle7").css("opacity", "." + humidity7);
+    $("#circle7").css("animation-name", "windy");
+    $("#circle7").css("animation-duration", windspeed7 + "s");
+    $("#circle7").css("animation-iteration-count", "infinite");
+
+    $("#circle8").css("height", humidity8 + "px");
+    $("#circle8").css("width", humidity8 + "px");
+    $("#circle8").css("opacity", "." + humidity8);
+    $("#circle8").css("animation-name", "windy");
+    $("#circle8").css("animation-duration", windspeed8 + "s");
+    $("#circle8").css("animation-iteration-count", "infinite");
+
+    $("#circle9").css("height", humidity9 + "px");
+    $("#circle9").css("width", humidity9 + "px");
+    $("#circle9").css("opacity", "." + humidity9);
+    $("#circle9").css("animation-name", "windy");
+    $("#circle9").css("animation-duration", windspeed9 + "s");
+    $("#circle9").css("animation-iteration-count", "infinite");
+
+    $("#circle0").css("height", humidity0 + "px");
+    $("#circle0").css("width", humidity0 + "px");
+    $("#circle0").css("opacity", "." + humidity0);
+    $("#circle0").css("animation-name", "windy");
+    $("#circle0").css("animation-duration", windspeed0 + "s");
+    $("#circle0").css("animation-iteration-count", "infinite");
+
+    $(".toggle1").css("border-color", "black");
+    $(".toggle1").css("color", "black");
+    $(".toggle1").css("background-color", "white");
+    $(".toggle2").css("border-color", "black");
+    $(".toggle2").css("color", "black");
+    $(".toggle2").css("background-color", "white");
+    $(".toggle3").css("border-color", "darkslategrey");
+    $(".toggle3").css("color", "white");
+    $(".toggle3").css("background-color", "darkslategrey");
 });
