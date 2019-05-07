@@ -410,4 +410,3 @@ $(".toggle3").click(function(){
     $(".toggle3").css("color", "dodgerblue");
     $(".toggle3").css("font-weight", "500");
 });
-
