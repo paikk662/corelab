@@ -1,0 +1,392 @@
+body {
+    background: whitesmoke;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: darkslategray;
+
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.datacol {
+    color: dodgerblue;
+}
+
+.bolds {
+    font-size: 1em;
+}
+
+.toggle1 {
+    display: none;
+    position: fixed;
+    bottom: 125px;
+    font-weight: 500;
+    font-size: 18px;
+    color: dodgerblue;
+    margin: 15px;
+}
+
+.toggle1:hover {
+    left: 35px;
+}
+
+.toggle2 {
+    display: none;
+    position: fixed;
+    bottom: 75px;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    margin: 15px;
+}
+
+.toggle2:hover {
+    left: 35px;
+}
+
+.toggle3 {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+    margin: 15px;
+}
+
+.toggle3:hover {
+    left: 35px;
+}
+
+.xtitle {
+    display: none;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 45vh;
+    width: 98vw;
+}
+
+.city1 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city2 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city3 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city4 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city5 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city6 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city7 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city8 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city9 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city10 {
+    flex-grow: 1;
+    line-height: 1.75;
+    margin: 25px;
+    font-weight: 300;
+}
+
+.city1:hover{
+    font-weight: 500;
+}
+
+.city2:hover{
+    font-weight: 500;
+}
+
+.city3:hover{
+    font-weight: 500;
+}
+
+.city4:hover{
+    font-weight: 500;
+}
+
+.city5:hover{
+    font-weight: 500;
+}
+
+.city6:hover{
+    font-weight: 500;
+}
+
+.city7:hover{
+    font-weight: 500;
+}
+
+.city8:hover{
+    font-weight: 500;
+}
+
+.city9:hover{
+    font-weight: 500;
+}
+
+.city10:hover{
+    font-weight: 500;
+}
+
+.mumbai {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.moscow {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.newyork {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.tokyo {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.seoul {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.beijing {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.shanghai {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.paris {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.london {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+.rio {
+    display: none;
+    line-height: 1.5;
+    margin: 25px;
+    flex-basis: 20%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#circle1 {
+    position: absolute;
+    top: 6vh;
+    left: 45vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle2 {
+    display: block;
+    position: absolute;
+    top: 15vh;
+    left: 57vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle3 {
+    position: absolute;
+    top: 32vh;
+    left: 65vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle4 { 
+    position: absolute;
+    top: 57vh;
+    left: 65vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);   
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle5 {
+    position: absolute;
+    top: 75vh;
+    left: 57vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle6 {
+    position: absolute;
+    top: 84vh;
+    left: 45vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle7 {
+    position: absolute;
+    top: 75vh;
+    left: 32vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle8 {
+    position: absolute;
+    top: 57vh;
+    left: 24vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle9 {
+    position: absolute;
+    top: 32vh;
+    left: 24vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+#circle0 {
+    position: absolute;
+    top: 15vh;
+    left: 32vw;
+    width: 50px;
+    height: 50px;
+    background:rgb(66, 148, 255);
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+  @keyframes windy {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
