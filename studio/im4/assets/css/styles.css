@@ -1,5 +1,5 @@
 body {
-    background: whitesmoke;
+    background: #fcfcfc;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
     color: darkslategray;
@@ -73,6 +73,7 @@ body {
     position: absolute;
     top: 45vh;
     width: 98vw;
+    z-index: 10;
 }
 
 .city1 {
@@ -145,6 +146,46 @@ body {
     font-weight: 300;
 }
 
+.city1:hover .mumbai {
+    display: block;
+}
+
+.city2:hover .moscow {
+    display: block;
+}
+
+.city3:hover .newyork {
+    display: block;
+}
+
+.city4:hover .tokyo {
+    display: block;
+}
+
+.city5:hover .seoul {
+    display: block;
+}
+
+.city6:hover .beijing {
+    display: block;
+}
+
+.city7:hover .shanghai {
+    display: block;
+}
+
+.city8:hover .paris {
+    display: block;
+}
+
+.city9:hover .london {
+    display: block;
+}
+
+.city10:hover .rio {
+    display: block;
+}
+
 .city1:hover{
     font-weight: 500;
 }
@@ -188,71 +229,71 @@ body {
 .mumbai {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .moscow {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .newyork {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .tokyo {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .seoul {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .beijing {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .shanghai {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .paris {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .london {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .rio {
     display: none;
     line-height: 1.5;
-    margin: 25px;
-    flex-basis: 20%;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 a:link {
@@ -382,7 +423,7 @@ a:link {
       left: 0;
     }
   }
-
+  
 a:visited {
     color: white;
 }
