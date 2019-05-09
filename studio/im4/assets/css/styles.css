@@ -412,6 +412,12 @@ a:link {
     transition: all 1s ease-in-out;
 }
 
+.animate {
+    animation-name: windy;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
   @keyframes windy {
     0% {
       left: 0;
