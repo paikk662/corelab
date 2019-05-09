@@ -20,7 +20,6 @@ $(document).ready(function(){
         $("#circle1").css("height", humidity1 + "px");
         $("#circle1").css("width", humidity1 + "px");
         $("#circle1").css("opacity", "." + humidity1);
-        $("#circle1").css("animation-name", "x");
 
         $('.mumbai').append('</br> HUMIDITY: ' + humidity1 + '% </br> WINDSPEED: ' + windspeed1 + ' mps');
     }
@@ -48,7 +47,6 @@ $(document).ready(function(){
         $("#circle2").css("height", humidity2 + "px");
         $("#circle2").css("width", humidity2 + "px");
         $("#circle2").css("opacity", "." + humidity2);
-        $("#circle2").css("animation-name", "x");
 
         $('.moscow').append('</br> HUMIDITY: ' + humidity2 + '% </br> WINDSPEED: ' + windspeed2 + ' mps');
     }
@@ -76,7 +74,6 @@ $(document).ready(function(){
         $("#circle3").css("height", humidity3 + "px");
         $("#circle3").css("width", humidity3 + "px");
         $("#circle3").css("opacity", "." + humidity3);
-        $("#circle3").css("animation-name", "x");
 
         $('.newyork').append('</br> HUMIDITY: ' + humidity3 + '% </br> WINDSPEED: ' + windspeed3 + ' mps');
     }
@@ -104,7 +101,6 @@ $(document).ready(function(){
         $("#circle4").css("height", humidity4 + "px");
         $("#circle4").css("width", humidity4 + "px");
         $("#circle4").css("opacity", "." + humidity4);
-        $("#circle4").css("animation-name", "x");
 
         $('.tokyo').append('</br> HUMIDITY: ' + humidity4 + '% </br> WINDSPEED: ' + windspeed4 + ' mps');
     }     
@@ -132,7 +128,6 @@ $(document).ready(function(){
         $("#circle5").css("height", humidity5 + "px");
         $("#circle5").css("width", humidity5 + "px");
         $("#circle5").css("opacity", "." + humidity5);
-        $("#circle5").css("animation-name", "x");
 
         $('.seoul').append('</br> HUMIDITY: ' + humidity5 + '% </br> WINDSPEED: ' + windspeed5 + ' mps');
     }     
@@ -160,7 +155,6 @@ $(document).ready(function(){
         $("#circle6").css("height", humidity6 + "px");
         $("#circle6").css("width", humidity6 + "px");
         $("#circle6").css("opacity", "." + humidity6);
-        $("#circle6").css("animation-name", "x");
 
         $('.beijing').append('</br> HUMIDITY: ' + humidity6 + '% </br> WINDSPEED: ' + windspeed6 + ' mps');
     }     
@@ -188,7 +182,6 @@ $(document).ready(function(){
         $("#circle7").css("height", humidity7 + "px");
         $("#circle7").css("width", humidity7 + "px");
         $("#circle7").css("opacity", "." + humidity7);
-        $("#circle7").css("animation-name", "x");
 
         $('.shanghai').append('</br> HUMIDITY: ' + humidity7 + '% </br> WINDSPEED: ' + windspeed7 + ' mps');
     }     
@@ -216,7 +209,6 @@ $(document).ready(function(){
         $("#circle8").css("height", humidity8 + "px");
         $("#circle8").css("width", humidity8 + "px");
         $("#circle8").css("opacity", "." + humidity8);
-        $("#circle8").css("animation-name", "x");
 
         $('.paris').append('</br> HUMIDITY: ' + humidity8 + '% </br> WINDSPEED: ' + windspeed8 + ' mps');
     }     
@@ -244,7 +236,6 @@ $(document).ready(function(){
         $("#circle9").css("height", humidity9 + "px");
         $("#circle9").css("width", humidity9 + "px");
         $("#circle9").css("opacity", "." + humidity9);
-        $("#circle9").css("animation-name", "x");
 
         $('.london').append('</br> HUMIDITY: ' + humidity9 + '% </br> WINDSPEED: ' + windspeed9 + ' mps');
     }     
@@ -272,78 +263,67 @@ $(document).ready(function(){
         $("#circle0").css("height", humidity0 + "px");
         $("#circle0").css("width", humidity0 + "px");
         $("#circle0").css("opacity", "." + humidity0);
-        $("#circle0").css("animation-name", "x");
 
         $('.rio').append('</br> HUMIDITY: ' + humidity0 + '% </br> WINDSPEED: ' + windspeed0 + ' mps');
     }     
 });
 
 $(".city1").click(function(){
-    $(".city1").css("font-weight", "500");
-    $("#circle1").css("animation-name", "windy");
-    $("#circle1").css("animation-duration", windspeed1 + "s");
-    $("#circle1").css("animation-iteration-count", "infinite");
+    $(".city1").toggleClass("heavy");
+    $('#circle1').toggleClass('animate');
+    $('#circle1').css("animation-duration", windspeed1 + "s");
 });
 
 $(".city2").click(function(){
-    $(".city2").css("font-weight", "500");
-    $("#circle2").css("animation-name", "windy");
-    $("#circle2").css("animation-duration", windspeed2 + "s");
-    $("#circle2").css("animation-iteration-count", "infinite");
+    $(".city2").toggleClass("heavy");
+    $('#circle2').toggleClass('animate');
+    $('#circle2').css("animation-duration", windspeed2 + "s");
 });
 
 $(".city3").click(function(){
-    $(".city3").css("font-weight", "500");
-    $("#circle3").css("animation-name", "windy");
+    $(".city3").toggleClass("heavy");
+    $('#circle3').toggleClass('animate');
     $("#circle3").css("animation-duration", windspeed3 + "s");
-    $("#circle3").css("animation-iteration-count", "infinite");
 });
 
 $(".city4").click(function(){
-    $(".city4").css("font-weight", "500");
-    $("#circle4").css("animation-name", "windy");
+    $(".city4").toggleClass("heavy");
+    $('#circle4').toggleClass('animate');
     $("#circle4").css("animation-duration", windspeed4 + "s");
-    $("#circle4").css("animation-iteration-count", "infinite");
 });
 
 $(".city5").click(function(){
-    $(".city5").css("font-weight", "500");
-    $("#circle5").css("animation-name", "windy");
+    $(".city5").toggleClass("heavy");
+    $('#circle5').toggleClass('animate');
     $("#circle5").css("animation-duration", windspeed5 + "s");
-    $("#circle5").css("animation-iteration-count", "infinite");
 });
 
 $(".city6").click(function(){
-    $(".city6").css("font-weight", "500");
-    $("#circle6").css("animation-name", "windy");
+    $(".city6").toggleClass("heavy");
+    $('#circle6').toggleClass('animate');
     $("#circle6").css("animation-duration", windspeed6 + "s");
-    $("#circle6").css("animation-iteration-count", "infinite");
 });
 
 $(".city7").click(function(){
-    $(".city7").css("font-weight", "500");
-    $("#circle7").css("animation-name", "windy");
+    $(".city7").toggleClass("heavy");
+    $('#circle7').toggleClass('animate');
     $("#circle7").css("animation-duration", windspeed7 + "s");
-    $("#circle7").css("animation-iteration-count", "infinite");
 });
 
 $(".city8").click(function(){
-    $(".city8").css("font-weight", "500");
-    $("#circle8").css("animation-name", "windy");
+    $(".city8").toggleClass("heavy");
+    $('#circle8').toggleClass('animate');
     $("#circle8").css("animation-duration", windspeed8 + "s");
-    $("#circle8").css("animation-iteration-count", "infinite");
 });
 
 $(".city9").click(function(){
-    $(".city9").css("font-weight", "500");
-    $("#circle9").css("animation-name", "windy");
+    $(".city9").toggleClass("heavy");
+    $('#circle9').toggleClass('animate');
     $("#circle9").css("animation-duration", windspeed9 + "s");
-    $("#circle9").css("animation-iteration-count", "infinite");
 });
 
 $(".city10").click(function(){
-    $(".city10").css("font-weight", "500");
-    $("#circle0").css("animation-name", "windy");
+    $(".city10").toggleClass("heavy");
+    $('#circle0').toggleClass('animate');
     $("#circle0").css("animation-duration", windspeed0 + "s");
-    $("#circle0").css("animation-iteration-count", "infinite");
 });

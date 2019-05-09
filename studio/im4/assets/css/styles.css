@@ -412,6 +412,10 @@ a:link {
     transition: all 1s ease-in-out;
 }
 
+.heavy {
+    font-weight: 500;
+}
+
 .animate {
     animation-name: windy;
     animation-iteration-count: infinite;
